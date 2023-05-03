@@ -144,6 +144,15 @@
                   </a>\
                   <figcaption style="display:none" itemprop="caption description">' + 'Eva Reber' + '</figcaption>\
                  </figure>';
+    
+        src = 'https://w.wallhaven.cc/full/qz/wallhaven-qz3ymr.jpg';
+        minSrc = 'https://th.wallhaven.cc/orig/qz/qz3ymr.jpg';
+        liTmpl += '<figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">\
+                    <a href="' + src + '" itemprop="contentUrl" data-size="1600x900" data-type="' + 'image' + '" data-target="' + src + '">\
+                    <img class="reward-img" data-type="' + 'image' + '" data-src="' + minSrc + '" src="/photos/static/empty.png" itemprop="thumbnail" onload="lzld(this)">\
+                    </a>\
+                    <figcaption style="display:none" itemprop="caption description">' + 'Eva Reber' + '</figcaption>\
+                </figure>';
 
       var ulTmpl = "";
       ulTmpl = ulTmpl + '<section class="album"><h1 class="year">' + 2023 + '年<em>' + 5 + '月</em></h1>\
