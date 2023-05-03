@@ -137,9 +137,9 @@
 
       var liTmpl = "";
       var src = 'https://w.wallhaven.cc/full/gp/wallhaven-gpq6e7.jpg';
-      var minSrc = 'https://wallhaven.cc/w/gpq6e7';
+      var minSrc = 'https://th.wallhaven.cc/orig/gp/gpq6e7.jpg';
       liTmpl += '<figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">\
-                  <a href="' + src + '" itemprop="contentUrl" data-size="1080x1080" data-type="' + 'image' + '" data-target="' + src + '">\
+                  <a href="' + src + '" itemprop="contentUrl" data-size="1600x1000" data-type="' + 'image' + '" data-target="' + src + '">\
                     <img class="reward-img" data-type="' + 'image' + '" data-src="' + minSrc + '" src="/photos/static/empty.png" itemprop="thumbnail" onload="lzld(this)">\
                   </a>\
                   <figcaption style="display:none" itemprop="caption description">' + 'Eva Reber' + '</figcaption>\
