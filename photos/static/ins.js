@@ -1,3 +1,36 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@SlackGPT 
+SlackGPT
+/
+SlackGPT.github.io
+Public
+Cannot fork because you own this repository and are not a member of any organizations.
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Beta Try the new code view
+SlackGPT.github.io/photos/static/ins.js /
+@SlackGPT
+SlackGPT Update ins.js
+Latest commit 8b3cd33 8 minutes ago
+ History
+ 1 contributor
+862 lines (729 sloc)  24.1 KB
+ 
+
 /******/
 (function(modules) { // webpackBootstrap
   /******/ // The module cache
@@ -112,7 +145,8 @@
     };
     var render = function render(res) {
       var ulTmpl = "";
-	  var token = ""
+	    var token = "";
+      console.log(res);
       for (var j = 0, len2 = res.list.length; j < len2; j++) {
         var data = res.list[j].arr;
         var liTmpl = "";
@@ -860,3 +894,17 @@
   }
   /******/
 ]);
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
