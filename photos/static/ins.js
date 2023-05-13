@@ -144,9 +144,24 @@
                   </a>\
                   <figcaption style="display:none" itemprop="caption description">' + 'Eva Reber' + '</figcaption>\
                  </figure>';
-    
         src = 'https://w.wallhaven.cc/full/qz/wallhaven-qz3ymr.jpg';
         minSrc = 'https://th.wallhaven.cc/orig/qz/qz3ymr.jpg';
+        liTmpl += '<figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">\
+                    <a href="' + src + '" itemprop="contentUrl" data-size="1600x900" data-type="' + 'image' + '" data-target="' + src + '">\
+                    <img class="reward-img" data-type="' + 'image' + '" data-src="' + minSrc + '" src="/photos/static/empty.png" itemprop="thumbnail" onload="lzld(this)">\
+                    </a>\
+                    <figcaption style="display:none" itemprop="caption description">' + 'Eva Reber' + '</figcaption>\
+                </figure>';
+        src = 'https://w.wallhaven.cc/full/ex/wallhaven-ex9p3o.png';
+        minSrc = 'https://th.wallhaven.cc/orig/ex/ex9p3o.jpg';
+        liTmpl += '<figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">\
+                    <a href="' + src + '" itemprop="contentUrl" data-size="1600x900" data-type="' + 'image' + '" data-target="' + src + '">\
+                    <img class="reward-img" data-type="' + 'image' + '" data-src="' + minSrc + '" src="/photos/static/empty.png" itemprop="thumbnail" onload="lzld(this)">\
+                    </a>\
+                    <figcaption style="display:none" itemprop="caption description">' + 'Eva Reber' + '</figcaption>\
+                </figure>';
+        src = 'https://w.wallhaven.cc/full/rr/wallhaven-rryo7w.jpg';
+        minSrc = 'https://th.wallhaven.cc/orig/rr/rryo7w.jpg';
         liTmpl += '<figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">\
                     <a href="' + src + '" itemprop="contentUrl" data-size="1600x900" data-type="' + 'image' + '" data-target="' + src + '">\
                     <img class="reward-img" data-type="' + 'image' + '" data-src="' + minSrc + '" src="/photos/static/empty.png" itemprop="thumbnail" onload="lzld(this)">\
